@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students List</title>
+    <link rel="stylesheet" href="css/layoutShared.css">
+    <link rel="stylesheet" href="css/studentsList.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <header>
+            Módulo Acadêmico
+        </header>
+        <ul class="nav-links">
+            <a  class="nav-item" href="#">
+                <li>Alunos</li>
+            </a>
+        </ul>
+    </nav>
+    <section class="container">
+        <header class="main-header">
+            Consulta de Alunos
+        </header>
+        <div class="content-page">
+            <div class="padding-left-right-20">
+                <div class="top-actions">
+                    <form class="form-search" action="">
+                        <input type="text" name="searchInput" id="searchInput">
+                        <button>Pesquisar</button>
+                    </form>
+                    <button>Cadastrar Aluno</button>
+                </div>
+                <table class="table-list">
+                    <thead>
+                        <tr>
+                            <th>Registro Acadêmico</th>
+                            <th>Nome</th>
+                            <th>CPF</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1939</td>
+                            <td>Aluno um</td>
+                            <td>123.456.789-00</td>
+                            <td>
+                                <a href="#">Editar</a>
+                                <a href="#">Excluir</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3879</td>
+                            <td>Aluno dois</td>
+                            <td>123.455.892-21</td>
+                            <td>
+                                <a href="#">Editar</a>
+                                <a href="#">Excluir</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2548</td>
+                            <td>Aluno três</td>
+                            <td>123.577.988-02</td>
+                            <td>
+                                <a href="#">Editar</a>
+                                <a href="#">Excluir</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9645</td>
+                            <td>Aluno quatro</td>
+                            <td>258.369.147-99</td>
+                            <td>
+                                <a href="#">Editar</a>
+                                <a href="#">Excluir</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
