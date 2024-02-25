@@ -1,29 +1,29 @@
 module.exports = [
     {
-        nome: 'Geferson Melo',
+        nome: 'Geferson Viana',
         email: 'teste@gmail.com',
-        cpf: '524.145.655-88',
+        cpf: '52414565588',
         ra: '9454325',
     },
 
     {
-        nome: 'Gxfbfvgn Melo',
-        email: 'tesdfge@gmail.com',
-        cpf: '899.145.655-88',
+        nome: 'José Melo',
+        email: 'teste2@gmail.com',
+        cpf: '89914565588',
         ra: '9454585',
     },
 
     {
-        nome: 'Geferson Melo',
-        email: 'teste@gmail.com',
-        cpf: '524.145.633-88',
+        nome: 'Paulo Melo',
+        email: 'teste3@gmail.com',
+        cpf: '52414563388',
         ra: '94434355',
     },
     
     {
-        nome: 'ghyfd Melo',
-        email: 'tesggte@gmail.com',
-        cpf: '524.437.655-88',
+        nome: 'Maria Luz',
+        email: 'teste4@gmail.com',
+        cpf: '52443765588',
         ra: '9453225',
     }
 ]
